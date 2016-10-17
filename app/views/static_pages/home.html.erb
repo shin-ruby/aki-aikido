@@ -1,2 +1,132 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<% provide(:title, "Home") %>
+
+<!-- Carousel
+================================================== -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <%= image_tag("Volo", class: "first-slide", alt: "First slide") %>
+      <div class="container">
+        <div class="carousel-caption">
+          <h1 class="banner-h1">上海合気道秋风馆</h1>
+          <p class="banner-p">秋为荣景，借敝馆相师广友，绵薄之力， 愿合气盛荣。
+						秋为有成，吾欲细心耕耘，不求速达， 但有小成。<br>
+						秋风习习，不及夏雨贯耳 ，冬雪凄厉，浑然天成 ，扫天下落叶。
+						合气之道， 如是也。</p>
+        </div>
+      </div>
+    </div>
+   
+    
+  </div>
+
+</div><!-- /.carousel -->
+
+
+
+<!-- Marketing messaging and featurettes
+================================================== -->
+<!-- Wrap the rest of the page in another container to center all the content. -->
+
+<div class="container marketing">
+
+  <!-- Three columns of text below the carousel -->
+  <div class="row">
+    <div class="col-lg-4">
+      <%= image_tag("aki-a", size: "160", class: "img-circle", alt: "Generic placeholder image") %>
+      <h2>参观与报名</h2>
+      <p>参观之前，需要先电话来预约参观时间。<br><abbr title="Phone">电话:</abbr>＋86 13004103577 或 <br> <abbr title="Phone">电话:</abbr>＋86 18621904074 <br> 新生（初学/非初学）点击报名须知了解如何开始学习合气道。</p>
+      <p><a class="btn btn-default" href="#" role="button">报名须知 &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <%= image_tag("aki-b", size: "160", class: "img-circle", alt: "Generic placeholder image") %>
+      <h2>稽古课程</h2>
+      <p>本道场的合气道有体术课和武器课<br>体术分初级者课程与高级者课程<br>武器分为合气刀术/合气杖术<br>每周二、四、五、六有课，每节课为两小时 <br> 道场会定期举行讲习会、演武会等练习。</p>
+      <p><a class="btn btn-default" href="#" role="button">了解详细 &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <%= image_tag("aki-d", size: "160", class: "img-circle", alt: "Generic placeholder image") %>
+      <h2>我们的社区</h2>
+      <p>这里可以了解道场最新资讯、道场照片、活动照片、内容分享、练习答疑，道场导师介绍、会员心得分享。<br>你可以在这里随时与我们交流。<br><br><br></p>
+      <p><a class="btn btn-default" href="https://ftghub.com/aki-aikido" role="button">进入秋风馆社区 &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+  </div><!-- /.row -->
+
+
+  <!-- START THE FEATURETTES -->
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">关于上海合气道秋风馆</h2>
+      <p class="lead">上海合气道秋风馆成立于2015年8月，由一群志同道合的合气道练习者共同发起，为的是进行纯粹的合气道练习。我们保持开放积极的心态，鼓励与外界其他道场的交流学习，努力推进合气道在中国的普及，使合气道被越来越多的国人所了解和喜爱。</p>
+    </div>
+    <div class="col-md-5">
+      <%= image_tag("aki-c", size: "500", class: "featurette-image img-responsive center-block", alt: "Generic placeholder image") %>
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7 col-md-push-5">
+      <h2 class="featurette-heading">什么是合气道</h2>
+      <p class="lead">合气道是一种后发先制、刚柔相济，阴阳相变，周流圆活，以巧取胜的一种实用技术，我们始终传承注重保护、崇尚礼仪的安全练习，时刻心念保护对手的精神，秉承“心性”的锻炼才是合气道锻炼的本旨，让每一个来参加练习的人都能微笑快乐，并从合气道的道理中获得收益。</p>
+    </div>
+    <div class="col-md-5 col-md-pull-7">
+      <%= image_tag("OSensei-a", size: "500", class: "featurette-image img-responsive center-block", alt: "Generic placeholder image") %>
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <h1 class="text-center">指导老师</h1>
+    <div class="col-lg-3">
+      <%= image_tag("zbh-aikido", size: "140", class: "img-circle", alt: "Generic placeholder image") %>
+      <h3><a href="https://ftghub.com/zbh">朱博海</a></h3>
+      <p>上海合气道秋风馆指导者。
+2003年开始在上海国际合气道爱好会练习合气道，至今有十多年的合气道练习经验。
+本部难波弘之师范审查获得三段。</p>
+    </div><!-- /.col-lg-3 -->
+
+    <div class="col-lg-3">
+      <%= image_tag("zbh-aikido", size: "140", class: "img-circle", alt: "Generic placeholder image") %>
+      <h3><a href="https://ftghub.com/zbh">朱博海</a></h3>
+      <p>上海合气道秋风馆指导者。
+2003年开始在上海国际合气道爱好会练习合气道，至今有十多年的合气道练习经验。
+本部难波弘之师范审查获得三段。</p>
+    </div><!-- /.col-lg-3 -->
+
+    <div class="col-lg-3">
+      <%= image_tag("zbh-aikido", size: "140", class: "img-circle", alt: "Generic placeholder image") %>
+      <h3><a href="https://ftghub.com/zbh">朱博海</a></h3>
+      <p>上海合气道秋风馆指导者。
+2003年开始在上海国际合气道爱好会练习合气道，至今有十多年的合气道练习经验。
+本部难波弘之师范审查获得三段。</p>
+    </div><!-- /.col-lg-3 -->
+
+    <div class="col-lg-3">
+      <%= image_tag("zbh-aikido", size: "140", class: "img-circle", alt: "Generic placeholder image") %>
+      <h3><a href="https://ftghub.com/zbh">朱博海</a></h3>
+      <p>上海合气道秋风馆指导者。
+2003年开始在上海国际合气道爱好会练习合气道，至今有十多年的合气道练习经验。
+本部难波弘之师范审查获得三段。</p>
+    </div><!-- /.col-lg-3 -->
+
+  </div>
+
+  <hr class="featurette-divider">
+
+  <!-- /END THE FEATURETTES -->
+
+
+  <!-- FOOTER -->
+  <footer>
+    <p class="pull-right"><a href="#">返回顶部</a></p>
+    <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">FTGHUB提供技术支持</a></p>
+  </footer>
+
+</div><!-- /.container -->
