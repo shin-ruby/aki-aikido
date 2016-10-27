@@ -16,11 +16,11 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">首页</a></li>
-            <li><a href="#about">道场介绍</a></li>
-            <li><a href="#contact">入会案内</a></li>
-            <li><a href="#contact">道场资讯</a></li>
-            <li><a href="#contact">联系我们</a></li>
+            <li class="active"><%= link_to "首页", root_path %></li>
+            <li><%= link_to "道场介绍", about_path %></li>
+            <li><%= link_to "入会案内", course_path %></li>
+            <li><%= link_to "道场资讯", info_path %></li>
+            <li><%= link_to "联系我们", contact_path %></li>
           </ul>
         </div>
       </div>

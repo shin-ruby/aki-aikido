@@ -1,14 +1,11 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-
-
- @media (min-width: 768px) {
+@media (min-width: 768px) {
 
  	.banner-h1 {
 		font-size: 70px;
 	}
-
 
 	.navbar-inverse .navbar-nav > li > a {
 	  font-size: 22px;
@@ -85,8 +82,57 @@
 	}
 }
 
+// About
+
+.navigation-bg {
+	height: 150px;
+	background-color: #333333;
+	// background-image: url(Volo.jpg);
+	// background-repeat:no-repeat;
+ //  background-position:center;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+}
+
+.about-banner-a {
+	height: 200px;
+}
+
+.about-school {
+	height: 500px;
+	background-image: url(school.jpg);
+	background-repeat:no-repeat;
+  background-position:center;
+}
+
+.instructors {
+	p {
+		margin-top: 16px;
+		font-size: 16px;
+	}
+}
+
+//Course
+
+.student {
+	li {
+		margin-bottom: 16px;
+	}
+}
+
+//Info
+
+.info-list {
+	margin-top: 40px;
+}
+
  @media (max-width: 768px) {
 	.logo {
 		width: 26px;
 	}
  }
+
+
+

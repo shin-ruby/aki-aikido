@@ -1,0 +1,117 @@
+<% provide(:title, "About") %>
+
+<div class="navigation-bg">
+</div>
+
+<div class="jumbotron">
+  <div class="container">
+    <h1>上海合气道秋风馆</h1>
+    <p>
+      上海合气道秋风馆成立于2015年8月，由一群志同道合的合气道练习者共同发起，为的是进行纯粹的合气道练习。我们保持开放积极的心态，鼓励与外界其他道场的交流学习，努力推进合气道在中国的普及，使合气道被越来越多的国人所了解和喜爱。<br>
+      合气道是一种后发先制、刚柔相济，阴阳相变，周流圆活，以巧取胜的一种实用技术，我们始终传承注重保护、崇尚礼仪的安全练习，时刻心念保护对手的精神，秉承“心性”的锻炼才是合气道锻炼的本旨，让每一个来参加练习的人都能微笑快乐，并从合气道的道理中获得收益。
+    </p>
+  </div>
+</div>
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <%= image_tag("a", size: "1140x500", alt: "First slide") %>
+    </div>
+    <div class="item">
+      <%= image_tag("b", size: "1140x500", alt: "Second slide") %>
+    </div>
+    <div class="item">
+      <%= image_tag("c", size: "1140x500", alt: "Third slide") %>
+    </div>
+  </div>
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<div class="instructors">
+  <div class="container">
+    <div class="row">
+       <div class="col-md-12">
+        <h2 class="text-left">上海合气道秋风馆指导者</h2>
+        <h3 class="text-left">创始人、指导者朱博海（合气会 三段)</h3>
+          <%= image_tag("zbh-aikido", size: "280", class: "img-thumbnail") %>
+        <p class="text-left"> 
+        <strong>2003年开始在上海国际合气道爱好会练习合气道，至今有十多年的合气道练习经验。<br />本部难波弘之师范审查获得三段。</strong>
+        </p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row ">
+       <div class="col-md-6">
+        <h3 class="text-left">指导员马丽娜（合气会 三段)</h3>
+          <%= image_tag("mln", size: "220", class: "img-thumbnail") %>
+        <p class="text-left"> 
+        <strong>2003年开始在上海国际合气道爱好会练习合气道，至今有十多年的合气道练习经验。<br />本部难波弘之师范审查获得三段。</strong>
+        </p>
+      </div>
+
+      <div class="col-md-6">
+        <h3 class="text-left">指导员张崎（合气会 二段)</h3>
+          <%= image_tag("zq", size: "220", class: "img-thumbnail") %>
+        <p class="text-left"> 
+        <strong>2003年开始在上海国际合气道爱好会练习合气道，至今有十多年的合气道练习经验。<br />本部难波弘之师范审查获得三段。</strong>
+        </p>
+      </div>
+    </div>
+    <hr>
+    <div class="row ">
+      <div class="col-md-6">
+        <h3 class="text-left">指导员殷毅青（合气会 二段)</h3>
+          <%= image_tag("yyq", size: "220", class: "img-thumbnail") %>
+        <p class="text-left"> 
+        <strong>2003年开始在上海国际合气道爱好会练习合气道，至今有十多年的合气道练习经验。<br />本部难波弘之师范审查获得三段。</strong>
+        </p>
+      </div>
+       <div class="col-md-6">
+        <h3 class="text-left">指导员曹韩（合气会 初段)</h3>
+          <%= image_tag("ch", size: "220", class: "img-thumbnail") %>
+        <p class="text-left"> 
+        <strong>2003年开始在上海国际合气道爱好会练习合气道，至今有十多年的合气道练习经验。<br />本部难波弘之师范审查获得三段。</strong>
+        </p>
+      </div>
+    </div>
+    <hr>
+    <div class="row ">
+       <div class="col-md-6">
+        <h3 class="text-left">指导者姚培青（合气会 初段)</h3>
+          <%= image_tag("ypq", size: "220", class: "img-thumbnail") %>
+        <p class="text-left"> 
+        <strong>2003年开始在上海国际合气道爱好会练习合气道，至今有十多年的合气道练习经验。<br />本部难波弘之师范审查获得三段。</strong>
+        </p>
+      </div>
+    </div>
+   
+  </div>
+</div>
+
+<div class="page-header">
+  <h1 class="text-center">合气道技法一览</h1>
+</div>
+<div class="about-course">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="container">
+        <%= render 'layouts/aikidos' %>
+      </div>
+    </div>
+  </div>
+</div>
